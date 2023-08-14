@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet"  type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+     header {
+      background-color: #f39c12;
+      color: orange;
+      padding: 10px 0;
+      text-align:center;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav h1 {
+      font-size: 28px;
+      margin: 0;
+      padding: 0;
+      color: black;
+        }
+     nav ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+     nav li {
+      margin-right: 90px;
+    }
+     nav a {
+      text-decoration: none;
+      color: black;
+      
+    }
+    nav a:hover {
+      color: aqua;
+    }
+     section {
+      padding: 100px 0;
+      text-align: center;
+    }
+     .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 170px;
+    }
+    .hire-button {
+      background-color: #f39c12;
+      color: black;
+      padding: 15px 40px;
+      border: none;
+      border-radius: 4px;
+      margin: 10px 0;
+      cursor: pointer;
+      font-size: 26px;
+      transition: background-color 0.3s;
+    }
+     .hire-button:hover {
+      background-color:aquamarine;
+    }
+    .intro {
+      margin-bottom: 40px;
+       }
+       .img {
+        position: absolute;
+        top: 160px;
+        margin-left: 900px;
+        
+       }
+    .img img {
+      width: 570px;
+      height: 500px ;
+      border-radius: 10px;
+       }
+    .intro h2 {
+      font-size: 36px;
+      font-weight: 400;
+      margin-top: 120px;
+      margin-right:1000px  ;
+    }
+    .intro h3 {
+      font-size: 60px;
+      font-weight: 600;
+      margin-right: 700px;
+    }
+    .intro h4 {
+      font-size: 30px;
+      font-weight: 600;
+      color: #3498db;
+      margin-right: 900px;
+    }
+    .intro h5 {
+      font-size: 18px;
+      font-weight: 300;
+      margin-right: 990px;
+    }
+    /* about section */
+    section{
+  padding-top: 90px;
+}
+section .content{
+  width: 90px;
+  margin: 40px auto; 
+}
+ .about-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .title{
+  display: flex;
+  justify-content: center;
+  margin-left:180px;
+}
+section .title pans{
+  color: #0E2431;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 9px;
+}
+ .about-text .left{
+  width:200%;
+}
+.about .left img{
+  height: 350px;
+  width: 330px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-right: 150px;
+}
+.about-text.center{
+  width: 40px;
+}
+section  .topic{
+  color: rgb(72, 71, 71);
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 430px;
+}
+.about-text .center p{
+  text-align: center;
+  color: #0E2431;
+  font-size: 18px;
+  width: 90vh;
+  margin-right: 300px;
+  }
+section .button{
+  margin: 30px 0;
+  margin-right: 400px;
+}
+section .button  button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #255ffe;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+section .button button:hover{
+  border-color:#255ffe;
+  background-color: #fff;
+  color: #255ffe;
+}
+* {
+      font-family:Arial,sans-serif ;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      
+    }
+   body {
+      background: whitesmoke;
+      
+    }
+    h1 {
+      text-align: center;
+      color:black;
+      font-weight: 700;
+      font-size: 40px;
+    }
+    h3 {
+      margin: 5px;
+      color: black; 
+    }
+  .skill {
+      width: 1400px;
+      margin: 60px auto;
+      padding: 20px;
+      height:520px;
+      background-color:bisque;
+      position: sticky;
+      margin-top:60px;
+       }
+    .skill li {
+      margin: 20px 0;
+      padding: 10px;
+     }
+    .bar {
+      background: whitesmoke;
+      display: block;
+      height: 30px;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: width 0.5s ease-in-out;
+    }
+     .bar span {
+      display: block;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(236, 0, 140, 1) 0%, rgba(252, 103, 103, 1) 100%);
+    }
+    .contact {
+      background-color: rgb(63, 62, 62);
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+    }
+     .contact h1 {
+      font-size: 36px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+     .contact p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    .email {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #3498db;
+    }
+    /* social-icons */
+    .social-icons {
+      padding: 30px;
+      background-color: #00506b;
+      text-align: center;
+    }
+    .social-icons a {
+      color: #fff;
+      font-size: 30px;
+      margin: 0 10px;
+      text-decoration: none;
+     transition: transform 0.3s, box-shadow 0.3s;
+    }
+     .social-icons a i {
+      font-size: 30px;
+     }
+   .social-icons a:hover i {
+      transform: scale(1.5);
+      box-shadow: 0px 0px 10px #000000;
+    }
+     </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>PORTFOLIO</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+     <!--Home section -->
+  <section id="home">
+    <div class="intro">
+       <h2>Hello</h2>
+      <h3>I'm Priyanka Kumari</h3>
+      <h4>Web Designer</h4>
+      <h5>From India</h5>
+      </div>
+      <div class="img">
+      <img src="https://www.pngfind.com/pngs/m/237-2371489_girl-looking-at-laptop-using-printify-mockup-generator.png" alt="">
+    </div>
+    <div class="button-container">
+      <button class="hire-button">Hire Me</button>
+    </div>
+  </section>
+     <!--about section -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <div class="title"><pans>About Me</pans></div>
+      <div class="about-text">
+        <div class="left">
+          <img src="https://www.pngfind.com/pngs/m/89-893676_computer-icons-user-laptop-personal-computer-computer-girl.png" alt="">
+        </div>
+        <div class="center">
+          <div class="topic">Introduction</div>
+          <p>
+            Hello! I am Priyanka, a participant in web design and a fresher.
+            I have experience in a web design internship, where I have 
+            gained foundational knowledge. I am harnessing my creativity 
+            and technical skills to acquire training. One of my favorite 
+            tasks is website designing, and I am enthusiastic about embracing
+             new innovations and trends.
+             </p>
+             <div class="topic">Passion and Goals</div>
+             <p>
+              My goal is to express my passion in
+             a way that impresses users and fulfills their needs. I aspire to
+            carve my niche in the world of web design, and this story is a
+             testament to my talent and hard work.
+            </p>
+             <div class="button">
+            <button>Download CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!--Skills section -->
+ <div class="skill">
+    <h1>My Skill</h1>
+    <ul>
+      <li>
+        <h3>HTML</h3>
+        <div class="bar"><span id="html"></span></div>
+        </li>
+          <li>
+            <h3>CSS</h3>
+             <div class="bar"><span id="css"></span></div>
+         </li>
+      <li>
+   <h3>JAVA</h3>
+ <div class="bar"><span id="java"></span></div>
+ </li>
+      <li>
+        <h3>JAVASCRIPT</h3>
+          <div class="bar"><span id="javascript"></span></div>
+            </li>
+               </ul>
+                 </div>
+   <!--Contact section -->
+ <section class="contact" id="contact">
+    <h1>Contact</h1>
+    <p>+91 846-043-4861</p>
+    <div class="email">Email: priyankak4982@gmail.com</div>
+    <div class="social-icons">
+      <a href="#" title="Facebook">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="#" title="Twitter">
+        <i class="fab fa-twitter-square"></i>
+      </a>
+      <a href="#" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </section>
+    <script>
+      const htmlBar = document.getElementById('html');
+      const cssBar = document.getElementById('css');
+      const javaBar = document.getElementById('java');
+      const javascriptBar = document.getElementById('javascript');
+    function animateSkill(element, percentage) {
+        element.style.width = percentage + '%';
+      }
+      animateSkill(htmlBar, 60);
+      animateSkill(cssBar, 90);
+      animateSkill(javaBar, 70);
+      animateSkill(javascriptBar, 30);
+    </script>
+</body>
+</html>
